@@ -155,7 +155,6 @@ body {
 
 .media.active {
   opacity: 1;
-  transition: all 2s cubic-bezier(0.53, 0, 0.07, 0.99);
 }
 
 li.content__trg:nth-child(1),
@@ -173,16 +172,16 @@ li.content__trg:nth-child(3) {
 
 /* __________ Interactions __________ */
 /* __________ Interactions __________ */
-.content__media img.media:nth-child(1) {
-  /* width: 110%;
-  height: 110%; */
-  /* rotate: 0deg;
+/* .content__media img.media:nth-child(1) {
+  width: 110%;
+  height: 110%;
+  rotate: 0deg;
   clip-path: var(--diamond);
   transition: all 1s cubic-bezier(0.53, 0, 0.07, 0.99);
-  opacity: 0; */
+  opacity: 0;
 }
 
-/* .content__media img.media:nth-child(2) {
+.content__media img.media:nth-child(2) {
   width: 90%;
   height: 90%;
   rotate: 0deg;
