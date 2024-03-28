@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  /* font: 1.4em/1.8 */
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(to top, #2980b9, #6dd5fa); */
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+@media (max-width: 37.5rem) {
+  body {
+    font-size: 1.2em;
+  }
+}
